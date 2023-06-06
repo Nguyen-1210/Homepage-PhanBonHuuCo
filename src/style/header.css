@@ -1,0 +1,47 @@
+header {
+    height: 180px;
+    background-color: var(--main-color);
+}
+
+.header-top-left a.header-top-link {
+    font-family: var(--font-Roboto);
+    font-weight: var(--font-regular);
+    font-size: var(--text-14);
+    line-height: var(--line-16);
+    position: relative;
+}
+
+.header-top-left a.header-top-link-border::before {
+    content: "";
+    position: absolute;
+    background-color: #ffff;
+    left: 0;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+}
+
+.header-top-left a.header-top-link-border::after {
+    content: "";
+    position: absolute;
+    background-color: #ffff;
+    right: 0;
+    width: .5px;
+    top: 0;
+    bottom: 0;
+}
+
+.header-top-right a.header-top-link {
+    font-family: var(--font-text);
+    font-weight: var(--font-regular);
+    font-size: var(--text-14);
+    line-height: var(--line-16);
+}
+
+.header-top-right a.header-top-link .hotline{
+   font-size: 13px;
+}
+
+.header-top-right a.header-top-link i {
+    font-size: var(--text-24);
+}
