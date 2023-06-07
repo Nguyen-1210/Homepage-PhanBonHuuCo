@@ -3,6 +3,8 @@ header {
     background-color: var(--main-color);
 }
 
+/* header-top */
+
 .header-top-left a.header-top-link {
     font-family: var(--font-Roboto);
     font-weight: var(--font-regular);
@@ -38,10 +40,65 @@ header {
     line-height: var(--line-16);
 }
 
-.header-top-right a.header-top-link .hotline{
-   font-size: 13px;
+.header-top-right a.header-top-link .hotline {
+    font-size: 13px;
 }
 
 .header-top-right a.header-top-link i {
     font-size: var(--text-24);
+}
+
+/* header-main */
+
+.header-main-left .branch img {
+    width: 60px;
+    height: 53px;
+}
+
+.header-main-left .branch h2 {
+    font-family: var(--font-text);
+    font-weight: var(--font-bold);
+    font-size: var(--text-24);
+}
+
+.header-main-center form .select {
+    position: relative;
+}
+
+.header-main-center form .select::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    right: 0;
+    width: .5px;
+    top: 0;
+    bottom: 0;
+}
+
+.header-main-center form select {
+    font-family: var(--font-text);
+    font-weight: var(--font-regular);
+    font-size: var(--text-14);
+}
+
+.header-main-center form input {
+    font-family: var(--font-text);
+    font-weight: var(--font-regular);
+    font-size: var(--text-14);
+    position: relative;
+}
+
+.header-main-center form button i {
+    color: #FBD947;
+    font-size: 18px;
+    font-weight: var(--font-regular);
+}
+
+.header-main-right button {
+    background-color: white;
+    color: var(--main-color);
+    font-family: var(--font-text);
+    font-weight: var(--font-bold);
+    font-size: var(--text-16);
+    line-height: var(--line-16);
 }
